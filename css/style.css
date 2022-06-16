@@ -1,0 +1,94 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+h5{
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+hr {
+    color: hsl(215, 32%, 27%)
+}
+
+.card {
+    width: 18rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 3%;
+    margin: auto;
+    margin-top: 6%;
+
+
+}
+
+.card-img-top {
+    padding: 20px;
+    border-radius: 10%;
+    transition: transform .2s; /* Animation */
+}
+.card-img-top:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: hsl(215, 51%, 70%);
+    font-size: 0.9rem;
+    padding: 1.5px;
+    line-height: 1.4;
+}
+.card-title:hover{
+    cursor: pointer;
+    color:cyan;
+}
+
+.nft-cost {
+
+    color: hsl(178, 100%, 50%);
+    display: inline;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.clock-text {
+
+    color: hsl(215, 51%, 70%);
+    display: inline;
+    text-align: right;
+    margin-left: 68px;
+    font-size: 0.9rem;
+}
+.creator-avatar{
+    border-style: solid;
+    border-radius: 50%;    
+    border-color: white;    
+    width: 12%;
+    margin-right: 8px;
+    
+    
+}
+.creator-name{
+    color:white;
+}
+
+.creator-name:hover{
+    cursor: pointer;
+    color:cyan;
+}
+.attribution{
+    padding-top: 3%;
+    text-align: center;
+    color: hsl(215, 32%, 27%);
+}
+
+.my-name{
+    color:cyan;
+    
+}
